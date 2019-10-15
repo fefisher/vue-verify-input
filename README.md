@@ -1,29 +1,16 @@
 # vue-verify-input
 
 ## Project setup
-```
-yarn install
-```
 
-### Compiles and hot-reloads for development
+### Installing
 ```
-yarn run serve
+npm install --save vue-verify-input
 ```
+### Import
 
-### Compiles and minifies for production
 ```
-yarn run build
+import Vue from 'vue';
+import VueVerifyInput from 'vue-verify-input';
+import  'vue-verify-input/lib/vue-verify-input.css';
+Vue.use(VueVerifyInput);
 ```
-
-### Run your tests
-```
-yarn run test
-```
-
-### Lints and fixes files
-```
-yarn run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).

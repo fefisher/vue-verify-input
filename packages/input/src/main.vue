@@ -28,12 +28,11 @@
                 inputReg: /^[0-9a-zA-Z]/,
                 inputList: [],
                 arrayInput: [],
-                code: [],
-                strCode: ''
+                code: []
             }
         },
         mounted() {
-            for (let i = 0, j = this.maxlength; i < j; i++) {
+            for (let i = 0, j = this.inputNumber; i < j; i++) {
                 this.code.push('')
             }
             this.inputList = document.getElementsByClassName('verify-text-input')
@@ -61,7 +60,6 @@
                         }
                     }
                 }
-                this.strCode = this.code.toString()
             }
         }
     }

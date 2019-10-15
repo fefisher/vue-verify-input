@@ -1,10 +1,15 @@
 {
   "name": "vue-verify-input",
-  "version": "0.1.0",
-  "private": true,
+  "version": "0.0.1",
+  "description": "a simple verification code input base on vue.js",
+  "main": "lib/vue-verify-input.umd.min.js",
+  "keyword": "verify vue-verify verify-input vue-verify-input",
+  "author": "frontwalker",
+  "license": "MIT",
+  "private": false,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
+    "build": "vue-cli-service build --target lib --name vue-verify-input --dest lib packages/index.js",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {

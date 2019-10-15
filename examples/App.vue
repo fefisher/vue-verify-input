@@ -2,7 +2,7 @@
     <div id="app">
         <img alt="Vue logo" src="./assets/logo.png">
         <HelloWorld msg="test verify input"/>
-        <VerifyInput :input-number="6"></VerifyInput>
+        <VerifyInput ref="verifyInput" :input-number="6"></VerifyInput>
     </div>
 </template>
 
@@ -14,10 +14,9 @@
         components: {
             HelloWorld
         },
-        methods: {
-            output(data) {
-                this.$data.emitData = data
-            }
+        methods: {},
+        mounted() {
+
         }
     }
 </script>
