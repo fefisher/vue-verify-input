@@ -1,11 +1,9 @@
 import Vue from 'vue'
 import App from './App.vue'
-import VerifyInput from '../packages/index'
-import verificationcode from 'vue-verification-code'
+import Verify from '../packages/index'
 
 Vue.config.productionTip = false
-Vue.use(verificationcode)
-Vue.use(VerifyInput)
+Vue.use(Verify)
 
 
 new Vue({

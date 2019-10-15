@@ -1,9 +1,11 @@
 // 导入单个组件
 import verifyInput from './input/index'
+import busLine from './input/index'
 
 // 以数组的结构保存组件，便于遍历
 const components = [
-    verifyInput
+    verifyInput,
+    busLine
 ]
 
 // 定义 install 方法

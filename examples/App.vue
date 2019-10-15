@@ -2,7 +2,8 @@
     <div id="app">
         <img alt="Vue logo" src="./assets/logo.png">
         <HelloWorld msg="test verify input"/>
-        <VerifyInput ref="verifyInput" :input-number="6"></VerifyInput>
+        <verify-input :input-number="6"></verify-input>
+        <bus-line></bus-line>
     </div>
 </template>
 
